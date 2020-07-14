@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AFD511224BE25FB00A388DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD511124BE25FB00A388DE /* AppDelegate.swift */; };
+		9AFD511424BE25FB00A388DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD511324BE25FB00A388DE /* SceneDelegate.swift */; };
+		9AFD511624BE25FB00A388DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD511524BE25FB00A388DE /* ViewController.swift */; };
+		9AFD511924BE25FB00A388DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD511724BE25FB00A388DE /* Main.storyboard */; };
+		9AFD511C24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD511A24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodeld */; };
+		9AFD511E24BE25FE00A388DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD511D24BE25FE00A388DE /* Assets.xcassets */; };
+		9AFD512124BE25FE00A388DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFD511F24BE25FE00A388DE /* LaunchScreen.storyboard */; };
+		9AFD512C24BE25FE00A388DE /* Access_Camera_and_PhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD512B24BE25FE00A388DE /* Access_Camera_and_PhotosTests.swift */; };
+		9AFD513724BE25FE00A388DE /* Access_Camera_and_PhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD513624BE25FE00A388DE /* Access_Camera_and_PhotosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AFD512824BE25FE00A388DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFD510624BE25FB00A388DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFD510D24BE25FB00A388DE;
+			remoteInfo = "Access Camera and Photos";
+		};
+		9AFD513324BE25FE00A388DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFD510624BE25FB00A388DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFD510D24BE25FB00A388DE;
+			remoteInfo = "Access Camera and Photos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AFD510E24BE25FB00A388DE /* Access Camera and Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Access Camera and Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFD511124BE25FB00A388DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AFD511324BE25FB00A388DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AFD511524BE25FB00A388DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AFD511824BE25FB00A388DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AFD511B24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Access_Camera_and_Photos.xcdatamodel; sourceTree = "<group>"; };
+		9AFD511D24BE25FE00A388DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AFD512024BE25FE00A388DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AFD512224BE25FE00A388DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFD512724BE25FE00A388DE /* Access Camera and PhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Access Camera and PhotosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFD512B24BE25FE00A388DE /* Access_Camera_and_PhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_Camera_and_PhotosTests.swift; sourceTree = "<group>"; };
+		9AFD512D24BE25FE00A388DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFD513224BE25FE00A388DE /* Access Camera and PhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Access Camera and PhotosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFD513624BE25FE00A388DE /* Access_Camera_and_PhotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_Camera_and_PhotosUITests.swift; sourceTree = "<group>"; };
+		9AFD513824BE25FE00A388DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFD510B24BE25FB00A388DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD512424BE25FE00A388DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD512F24BE25FE00A388DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AFD510524BE25FB00A388DE = {
+			isa = PBXGroup;
+			children = (
+				9AFD511024BE25FB00A388DE /* Access Camera and Photos */,
+				9AFD512A24BE25FE00A388DE /* Access Camera and PhotosTests */,
+				9AFD513524BE25FE00A388DE /* Access Camera and PhotosUITests */,
+				9AFD510F24BE25FB00A388DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AFD510F24BE25FB00A388DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD510E24BE25FB00A388DE /* Access Camera and Photos.app */,
+				9AFD512724BE25FE00A388DE /* Access Camera and PhotosTests.xctest */,
+				9AFD513224BE25FE00A388DE /* Access Camera and PhotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFD511024BE25FB00A388DE /* Access Camera and Photos */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD511124BE25FB00A388DE /* AppDelegate.swift */,
+				9AFD511324BE25FB00A388DE /* SceneDelegate.swift */,
+				9AFD511524BE25FB00A388DE /* ViewController.swift */,
+				9AFD511724BE25FB00A388DE /* Main.storyboard */,
+				9AFD511D24BE25FE00A388DE /* Assets.xcassets */,
+				9AFD511F24BE25FE00A388DE /* LaunchScreen.storyboard */,
+				9AFD512224BE25FE00A388DE /* Info.plist */,
+				9AFD511A24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodeld */,
+			);
+			path = "Access Camera and Photos";
+			sourceTree = "<group>";
+		};
+		9AFD512A24BE25FE00A388DE /* Access Camera and PhotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD512B24BE25FE00A388DE /* Access_Camera_and_PhotosTests.swift */,
+				9AFD512D24BE25FE00A388DE /* Info.plist */,
+			);
+			path = "Access Camera and PhotosTests";
+			sourceTree = "<group>";
+		};
+		9AFD513524BE25FE00A388DE /* Access Camera and PhotosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFD513624BE25FE00A388DE /* Access_Camera_and_PhotosUITests.swift */,
+				9AFD513824BE25FE00A388DE /* Info.plist */,
+			);
+			path = "Access Camera and PhotosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AFD510D24BE25FB00A388DE /* Access Camera and Photos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFD513B24BE25FE00A388DE /* Build configuration list for PBXNativeTarget "Access Camera and Photos" */;
+			buildPhases = (
+				9AFD510A24BE25FB00A388DE /* Sources */,
+				9AFD510B24BE25FB00A388DE /* Frameworks */,
+				9AFD510C24BE25FB00A388DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Access Camera and Photos";
+			productName = "Access Camera and Photos";
+			productReference = 9AFD510E24BE25FB00A388DE /* Access Camera and Photos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AFD512624BE25FE00A388DE /* Access Camera and PhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFD513E24BE25FE00A388DE /* Build configuration list for PBXNativeTarget "Access Camera and PhotosTests" */;
+			buildPhases = (
+				9AFD512324BE25FE00A388DE /* Sources */,
+				9AFD512424BE25FE00A388DE /* Frameworks */,
+				9AFD512524BE25FE00A388DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFD512924BE25FE00A388DE /* PBXTargetDependency */,
+			);
+			name = "Access Camera and PhotosTests";
+			productName = "Access Camera and PhotosTests";
+			productReference = 9AFD512724BE25FE00A388DE /* Access Camera and PhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AFD513124BE25FE00A388DE /* Access Camera and PhotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFD514124BE25FE00A388DE /* Build configuration list for PBXNativeTarget "Access Camera and PhotosUITests" */;
+			buildPhases = (
+				9AFD512E24BE25FE00A388DE /* Sources */,
+				9AFD512F24BE25FE00A388DE /* Frameworks */,
+				9AFD513024BE25FE00A388DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFD513424BE25FE00A388DE /* PBXTargetDependency */,
+			);
+			name = "Access Camera and PhotosUITests";
+			productName = "Access Camera and PhotosUITests";
+			productReference = 9AFD513224BE25FE00A388DE /* Access Camera and PhotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AFD510624BE25FB00A388DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ananya Tandel";
+				TargetAttributes = {
+					9AFD510D24BE25FB00A388DE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9AFD512624BE25FE00A388DE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9AFD510D24BE25FB00A388DE;
+					};
+					9AFD513124BE25FE00A388DE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9AFD510D24BE25FB00A388DE;
+					};
+				};
+			};
+			buildConfigurationList = 9AFD510924BE25FB00A388DE /* Build configuration list for PBXProject "Access Camera and Photos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AFD510524BE25FB00A388DE;
+			productRefGroup = 9AFD510F24BE25FB00A388DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AFD510D24BE25FB00A388DE /* Access Camera and Photos */,
+				9AFD512624BE25FE00A388DE /* Access Camera and PhotosTests */,
+				9AFD513124BE25FE00A388DE /* Access Camera and PhotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFD510C24BE25FB00A388DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFD512124BE25FE00A388DE /* LaunchScreen.storyboard in Resources */,
+				9AFD511E24BE25FE00A388DE /* Assets.xcassets in Resources */,
+				9AFD511924BE25FB00A388DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD512524BE25FE00A388DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD513024BE25FE00A388DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AFD510A24BE25FB00A388DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFD511624BE25FB00A388DE /* ViewController.swift in Sources */,
+				9AFD511C24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodeld in Sources */,
+				9AFD511224BE25FB00A388DE /* AppDelegate.swift in Sources */,
+				9AFD511424BE25FB00A388DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD512324BE25FE00A388DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFD512C24BE25FE00A388DE /* Access_Camera_and_PhotosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFD512E24BE25FE00A388DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFD513724BE25FE00A388DE /* Access_Camera_and_PhotosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AFD512924BE25FE00A388DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFD510D24BE25FB00A388DE /* Access Camera and Photos */;
+			targetProxy = 9AFD512824BE25FE00A388DE /* PBXContainerItemProxy */;
+		};
+		9AFD513424BE25FE00A388DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFD510D24BE25FB00A388DE /* Access Camera and Photos */;
+			targetProxy = 9AFD513324BE25FE00A388DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AFD511724BE25FB00A388DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFD511824BE25FB00A388DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AFD511F24BE25FE00A388DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFD512024BE25FE00A388DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AFD513924BE25FE00A388DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AFD513A24BE25FE00A388DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AFD513C24BE25FE00A388DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Access Camera and Photos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananya-Tandel.Access-Camera-and-Photos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AFD513D24BE25FE00A388DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Access Camera and Photos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananya-Tandel.Access-Camera-and-Photos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AFD513F24BE25FE00A388DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Access Camera and PhotosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananya-Tandel.Access-Camera-and-PhotosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Access Camera and Photos.app/Access Camera and Photos";
+			};
+			name = Debug;
+		};
+		9AFD514024BE25FE00A388DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Access Camera and PhotosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananya-Tandel.Access-Camera-and-PhotosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Access Camera and Photos.app/Access Camera and Photos";
+			};
+			name = Release;
+		};
+		9AFD514224BE25FE00A388DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Access Camera and PhotosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananya-Tandel.Access-Camera-and-PhotosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Access Camera and Photos";
+			};
+			name = Debug;
+		};
+		9AFD514324BE25FE00A388DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Access Camera and PhotosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananya-Tandel.Access-Camera-and-PhotosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Access Camera and Photos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AFD510924BE25FB00A388DE /* Build configuration list for PBXProject "Access Camera and Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFD513924BE25FE00A388DE /* Debug */,
+				9AFD513A24BE25FE00A388DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFD513B24BE25FE00A388DE /* Build configuration list for PBXNativeTarget "Access Camera and Photos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFD513C24BE25FE00A388DE /* Debug */,
+				9AFD513D24BE25FE00A388DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFD513E24BE25FE00A388DE /* Build configuration list for PBXNativeTarget "Access Camera and PhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFD513F24BE25FE00A388DE /* Debug */,
+				9AFD514024BE25FE00A388DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFD514124BE25FE00A388DE /* Build configuration list for PBXNativeTarget "Access Camera and PhotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFD514224BE25FE00A388DE /* Debug */,
+				9AFD514324BE25FE00A388DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AFD511A24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AFD511B24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodel */,
+			);
+			currentVersion = 9AFD511B24BE25FB00A388DE /* Access_Camera_and_Photos.xcdatamodel */;
+			path = Access_Camera_and_Photos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9AFD510624BE25FB00A388DE /* Project object */;
+}
